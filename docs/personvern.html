@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personvernerklæring — ANSATT</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      color: #1a1a1a;
+      background: #f9f9f9;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      background: #fff;
+      border-radius: 12px;
+      padding: 2.5rem 2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #1A56DB;
+      margin-bottom: 0.25rem;
+    }
+    h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      color: #111;
+    }
+    .updated {
+      font-size: 0.875rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-top: 2rem;
+      margin-bottom: 0.5rem;
+      color: #1A56DB;
+    }
+    p { margin-bottom: 0.75rem; }
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 0.75rem;
+    }
+    li { margin-bottom: 0.3rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      font-size: 0.9rem;
+    }
+    th {
+      text-align: left;
+      background: #f0f4ff;
+      padding: 0.6rem 0.8rem;
+      border: 1px solid #dde3f0;
+      font-weight: 600;
+    }
+    td {
+      padding: 0.6rem 0.8rem;
+      border: 1px solid #dde3f0;
+      vertical-align: top;
+    }
+    a { color: #1A56DB; }
+    .contact-box {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">ANSATT</div>
+    <h1>Personvernerklæring</h1>
+    <p class="updated">Sist oppdatert: 1. mai 2026</p>
+
+    <p>
+      Denne personvernerklæringen forklarer hvilke opplysninger ANSATT-appen
+      samler inn, hvordan de brukes, og hvilke rettigheter du har som bruker.
+      Vi tar personvernet ditt på alvor og behandler data i henhold til
+      EUs personvernforordning (GDPR) og norsk personvernlovgivning.
+    </p>
+
+    <h2>1. Hvem er behandlingsansvarlig?</h2>
+    <p>
+      ANSATT er utviklet av <strong>Alfred Herje</strong>.<br />
+      Kontakt: <a href="mailto:alfred.herje@gmail.com">alfred.herje@gmail.com</a>
+    </p>
+
+    <h2>2. Hvilke opplysninger samler vi inn?</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Opplysning</th>
+          <th>Formål</th>
+          <th>Lagring</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fornavn og e-postadresse</td>
+          <td>Brukerprofil og personalisering</td>
+          <td>Kun på din enhet</td>
+        </tr>
+        <tr>
+          <td>By og jobbpreferanser</td>
+          <td>Filtrere relevante stillinger</td>
+          <td>Kun på din enhet</td>
+        </tr>
+        <tr>
+          <td>Erfaringsnivå og karrieremål</td>
+          <td>AI-personalisering av søknadsbrev og jobbmatch</td>
+          <td>Kun på din enhet</td>
+        </tr>
+        <tr>
+          <td>CV (PDF eller bilde) — valgfritt</td>
+          <td>AI-generert søknadsbrev og CV-coach</td>
+          <td>Kun på din enhet; sendes til Anthropic API for prosessering</td>
+        </tr>
+        <tr>
+          <td>Lagrede jobber og søknadsstatus</td>
+          <td>Personlig jobblogg (Kanban)</td>
+          <td>Kun på din enhet</td>
+        </tr>
+        <tr>
+          <td>Anonymiserte bruksdata</td>
+          <td>Forbedre appen (Mixpanel analytics)</td>
+          <td>Mixpanel EU-servere</td>
+        </tr>
+        <tr>
+          <td>Kjøpshistorikk (Pro-abonnement)</td>
+          <td>Validere abonnementsstatus</td>
+          <td>RevenueCat</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      Vi samler <strong>ikke</strong> inn personnummer, betalingskortinformasjon
+      eller annen sensitiv personinformasjon. All informasjon du oppgir i appen
+      lagres lokalt på din enhet med mindre annet er angitt ovenfor.
+    </p>
+
+    <h2>3. Bruk av kunstig intelligens (AI)</h2>
+    <p>
+      ANSATT bruker Anthropic Claude API for å generere søknadsbrev, vurdere
+      jobbmatch og gi CV-råd. Når du bruker disse funksjonene, sendes relevant
+      informasjon (profil, jobbdetaljer og eventuelt CV) til Anthropic for
+      prosessering. Anthropic behandler data i henhold til sine egne
+      personvernregler: <a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a>.
+    </p>
+    <p>
+      Betalingsinformasjon sendes aldri til AI-tjenesten.
+      Data sendes kun ved aktiv bruk av AI-funksjonene — ikke i bakgrunnen.
+    </p>
+
+    <h2>4. Jobbdata fra NAV Arbeidsplassen</h2>
+    <p>
+      Stillingsannonser hentes fra NAV Arbeidsplassen sitt åpne API
+      (<a href="https://arbeidsplassen.nav.no" target="_blank">arbeidsplassen.nav.no</a>).
+      ANSATT lagrer ikke disse dataene permanent — de hentes ved oppstart og
+      lagres midlertidig i appens minne.
+    </p>
+
+    <h2>5. Push-varsler</h2>
+    <p>
+      Hvis du godtar push-varsler, lagres et anonymt enhets-token lokalt på
+      din enhet og brukes kun for å sende deg lokale varsler om nye jobber.
+      Vi sender ikke push-varsler via en ekstern server — varslene genereres
+      direkte på din enhet.
+    </p>
+
+    <h2>6. Tredjepartstjenester</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tjeneste</th>
+          <th>Formål</th>
+          <th>Personvernregler</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Anthropic Claude API</td>
+          <td>AI-søknadsbrev, CV-coach, jobbmatch</td>
+          <td><a href="https://www.anthropic.com/privacy" target="_blank">anthropic.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Mixpanel (EU)</td>
+          <td>Anonymisert app-statistikk</td>
+          <td><a href="https://mixpanel.com/legal/privacy-policy/" target="_blank">mixpanel.com/legal/privacy-policy</a></td>
+        </tr>
+        <tr>
+          <td>RevenueCat</td>
+          <td>Abonnementshåndtering</td>
+          <td><a href="https://www.revenuecat.com/privacy" target="_blank">revenuecat.com/privacy</a></td>
+        </tr>
+        <tr>
+          <td>Expo / EAS</td>
+          <td>App-distribusjon og oppdateringer</td>
+          <td><a href="https://expo.dev/privacy" target="_blank">expo.dev/privacy</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>7. Dine rettigheter (GDPR)</h2>
+    <p>Som registrert har du rett til å:</p>
+    <ul>
+      <li><strong>Innsyn</strong> — be om en kopi av opplysninger vi har om deg</li>
+      <li><strong>Retting</strong> — korrigere uriktige opplysninger</li>
+      <li><strong>Sletting</strong> — be om at opplysninger slettes ("retten til å bli glemt")</li>
+      <li><strong>Dataportabilitet</strong> — motta opplysningene i et maskinlesbart format</li>
+      <li><strong>Innsigelse</strong> — protestere mot behandling av dine opplysninger</li>
+    </ul>
+    <p>
+      Siden nesten all data lagres lokalt på din enhet, kan du slette all
+      informasjon ved å slette appen. For innsyn i data hos tredjepartstjenestene,
+      kontakt dem direkte via lenkene ovenfor.
+    </p>
+    <p>
+      Du kan også klage til <a href="https://www.datatilsynet.no" target="_blank">Datatilsynet</a>
+      dersom du mener vi ikke behandler personopplysningene dine i henhold til loven.
+    </p>
+
+    <h2>8. Datalagring og sikkerhet</h2>
+    <p>
+      Brukerdata lagres lokalt på din enhet ved hjelp av iOS' innebygde
+      sikkerhetsfunksjoner. Vi har ingen sentral database med brukerdata.
+      Data slettes automatisk når du avinstallerer appen eller bruker
+      "Nullstill profil" i innstillingene.
+    </p>
+
+    <h2>9. Barn</h2>
+    <p>
+      ANSATT er ikke rettet mot barn under 16 år. Vi samler ikke bevisst
+      inn opplysninger fra mindreårige.
+    </p>
+
+    <h2>10. Endringer i denne erklæringen</h2>
+    <p>
+      Vi kan oppdatere denne personvernerklæringen. Vesentlige endringer vil
+      varsles i appen. Den til enhver tid gjeldende versjon er tilgjengelig
+      på denne siden.
+    </p>
+
+    <h2>11. Kontakt oss</h2>
+    <div class="contact-box">
+      <p>Har du spørsmål om personvern eller ønsker å utøve dine rettigheter?</p>
+      <p>
+        <strong>Alfred Herje</strong><br />
+        E-post: <a href="mailto:alfred.herje@gmail.com">alfred.herje@gmail.com</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
